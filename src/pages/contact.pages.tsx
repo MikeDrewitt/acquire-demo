@@ -4,7 +4,7 @@ import { Contact } from "../types/contact.type";
 
 import ContactService from "../services/contact.service";
 
-import ContactListItem from "../contactListItem";
+import ContactListItem from "../components/contactListItem";
 
 const ContactPage = () => {
   const [loading, setLoading] = useState(true);

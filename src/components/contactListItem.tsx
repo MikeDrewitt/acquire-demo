@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Contact } from "./types/contact.type";
+import { Contact } from "../types/contact.type";
 
 type Props = { contact: Contact };
 
