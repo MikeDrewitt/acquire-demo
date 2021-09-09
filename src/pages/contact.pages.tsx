@@ -14,10 +14,7 @@ const ContactPage = () => {
   useEffect(() => {
     ContactService.list()
       .then(setContacts)
-      .catch((err) => {
-        console.error(err);
-        setError(err);
-      })
+      .catch(setError)
       .finally(() => setLoading(false));
   }, []);
 
